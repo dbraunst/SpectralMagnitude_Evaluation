@@ -27,21 +27,21 @@ def dB_weighted_fft(signal):
     return db_weighted_signal 
 
 def flatten_HRTF(input_HRTF):
-    # '''
-    # flattens the first two dimensions of the HRTF, 
-    # typically indexed by [azi, ele] for the first two dimensions,
-    # in order to beter work with Elastic-Net Regression
+#     '''
+#     flattens the first two dimensions of the HRTF, 
+#     typically indexed by [azi, ele] for the first two dimensions,
+#     in order to beter work with Elastic-Net Regression
     
-    # Parameters
-    # ----------
-    # input_HRTF : np.ndarray, [shape=(72, 12, 2, 256)
+#     Parameters
+#     ----------
+#     input_HRTF : np.ndarray, [shape=(72, 12, 2, 256)
         
 
-    # Returns
-    # -------
-    # flattened_HRTF : np.ndarray, [shape=(1008, 2, 256)]
+#     Returns
+#     -------
+#     flattened_HRTF : np.ndarray, [shape=(1008, 2, 256)]
     
-    # '''
+#     '''
     idx = 0;
     flat_len = input_HRTF.shape[0] * input_HRTF.shape[1];
     
@@ -153,3 +153,6 @@ def get_HRIR(HRTF, azi=0, ele=0, warnings=True, verbose=True):
     output = HRTF[aziIdx, eleIdx]
     
     return output
+
+def NormalizeData(data):
+    return (data - np.min(data)) / (np.max(data) - np.min(data))
