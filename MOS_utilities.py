@@ -14,7 +14,6 @@ def dB_weighted_fft(signal):
     
     # dB-weighted magnitude FFT of signal [shape=(2,(N_FFT / 2) - 1)]
     
-    
     sig_L_fft = 20 * np.log10(np.abs(scipy.fft.fft(signal[0])))
     sig_R_fft = 20 * np.log10(np.abs(scipy.fft.fft(signal[1])))
     
