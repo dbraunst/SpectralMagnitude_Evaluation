@@ -1,0 +1,63 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;\f1\froman\fcharset0 Times-Roman;\f2\froman\fcharset0 TimesNewRomanPS-ItalicMT;
+\f3\froman\fcharset0 TimesNewRomanPS-BoldMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid2\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww16260\viewh12840\viewkind0
+\deftab720
+\pard\pardeftab720\sl440\qj\partightenfactor0
+
+\f0\fs32 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The chorus effect was applied in seven different iterations using the same sound source, a 12 second segment of a male vocal singing \'93aah.\'94 This sound source was chosen because it represents a signal that can be commonly found being processed by a chorus effect in stereo mixes. Azimuth positions are defined using the IRCAM angle measurements- 0\'ba directly in front of the listener, 90\'ba directly to the left of the listener, 180\'ba directly behind the listener, and 270\'ba directly to the right of the listener- because the IRCAM HRIR dataset was used for convolution. The versions will make use of sources binaurally panned in the horizontal plane at 0\'ba,\'a0 45\'ba,\'a0 90\'ba, 135\'ba, 180\'ba, 225\'ba, 270\'ba and 315\'ba, with the exception of one created using a virtual surround sound technique and one stereo version. The seven iterations were:
+\f1\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl440\qj\partightenfactor0
+\ls1\ilvl0
+\f2\i\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Pre-Convolution:
+\f0\i0  A version with the effect designed with the mono input signal\'92s stereo chorus output. The left and right output of the chorus effect were then convolved separately, at the following positions:\'a0\uc0\u8232 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl440\qj\partightenfactor0
+\ls1\ilvl1
+\f3\b \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Iteration 1:
+\f0\b0  90\'ba (L) and 0\'ba (R), 45\'ba (L) and 315\'ba (R), 270\'ba (L) and 180\'ba (R), 135\'ba (L) and 225\'ba (R)\uc0\u8232 \
+\ls1\ilvl1
+\f3\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Iteration 2: 
+\f0\b0 90\'ba (L) and 45\'ba (R), 0\'ba (L) and 315\'ba (R), 270\'ba (L) and 225\'ba (R), 180\'ba (L) and 135\'ba (R)\uc0\u8232 \
+\ls1\ilvl1
+\f3\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Iteration 3: 
+\f0\b0 90\'ba (L) and 45\'ba (R), 45\'ba (L) and 0\'ba (R), 0\'ba (L) and 315\'ba (R), 315\'ba (L) and 270\'ba (R), 270\'ba (L) and 225\'ba (R), 225\'ba (L) and 180\'ba (R), 180\'ba (L) and 135\'ba (R), 135\'ba (L) and 90\'ba\'a0\uc0\u8232 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl440\qj\partightenfactor0
+\ls1\ilvl0
+\f3\b \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Iteration 4: 
+\f2\i\b0 Post-Convolution, Pre-Summation:
+\f0\i0  This version first convolved the mono source with the HRTFs at the aforementioned chosen positions along the azimuth plane. The chorus effect was then applied to each of these convolved sources pre-summation of the left and right channels of the final binaural signal.\'a0\uc0\u8232 \
+\ls1\ilvl0
+\f3\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Iteration 5: 
+\f2\i\b0 Post-Convolution, Post-Summation:
+\f0\i0  This version again began with convolving the mono source with the HRTFs at the chosen positions in the azimuth plane. The chorus effect was placed on the stereo output of the binaural signal, after Left/Right summation.
+\f2\i \uc0\u8232 \
+\ls1\ilvl0
+\f3\i0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Iteration 6: 
+\f0\b0 This version is the stereo output of the chorus, with no HRTF convolution.\uc0\u8232 \
+\ls1\ilvl0
+\f3\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Iteration 7: 
+\f2\i\b0 Virtual Surround Sound:
+\f0\i0  This version was made similar to the pre-convolution iterations, but convolved the stereo chorus output with HRTFs at positions 0\'ba, 30\'ba, 120\'ba, 240\'ba, and 330\'ba, representing speaker positions in a surround sound setup.
+\f2\i \uc0\u8232 \
+\pard\pardeftab720\sl440\qj\partightenfactor0
+
+\f0\i0 \cf2 	 \'a0 \'a0 \'a0 
+\f2\i Iteration 1 \'a0 			\'a0 Iteration 2 			 \'a0 \'a0 \'a0 \'a0 \'a0 Iteration 3
+\f1\i0\fs24 \
+
+\f0\fs32 After summation, all of the iterations were gain weighted so that the gains would be similar during testing. The same short room reverb was added to all iterations as well in order to help listeners externalize the audio examples.\'a0
+\f1\fs24 \
+}
