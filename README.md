@@ -1,6 +1,6 @@
-# HRTF_Estimation
+# Spectral Magnitude Evalation
 
-HRTF Estimation of Binaural Soundsources utilizing HRTF Spectral Magnitude Precision another change!
+Examination of spectral character of a Binaural Chorus Effect designed by Sam Platt <sup>[8](http://www.aes.org/e-lib/browse.cfm?elib=20869)</sup> utilizing techniques for measuring HRTF Spectral Magnitude Precision presented by Crawford et al <sup>[5](http://www.aes.org/e-lib/browse.cfm?elib=20869)</sup>
 
 ## Motivation
 Recent developments in consumer technology have significantly increased the accessibility and popularity of Extended Reality content, and the incorporation of Spatial Audio is a critical component of that content. The perceptual ability to localize a sound source in space is dependent on a sound source’s volume, time of arrival, and spectral content<sup>[1](https://doi.org/10.1121/1.418029)</sup>, which are all affected by its position relative to the listener. Any sound source can be spatialized over headphones by modifying it’s sound cues through convolution with Head-Related Transfer Functions (HRTFs), which can accurately “fool” the listener into believing that what they’re hearing on headphones is originating at a given horizontal azimuth, vertical elevation, and distance in space <sup>[2](http://www.aes.org/e-lib/inst/browse.cfm?elib=8319)</sup>. 
@@ -24,7 +24,4 @@ This project will involve the creation of a dataset of first-order ambisonic mus
 5. Crawford, S., Audfray, R., & Jot, J.-M. (2020, August 13). Quantifying HRTF Spectral Magnitude Precision in Spatial Computing Applications. Audio Engineering Society Conference: 2020 AES International Conference on Audio for Virtual and Augmented Reality. http://www.aes.org/e-lib/browse.cfm?elib=20869 
 6. Lostanlen, V., Cella, C.-E., Bittner, R., & Essid, S. (2019). Medley-solos-DB: A cross-collection dataset for musical instrument recognition [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3464194
 7. López, A. P. (2020). Andresperezlopez/ambiscaper [Python]. https://github.com/andresperezlopez/ambiscaper (Original work published 2017)
-
-
-##
-Sam is adding this line of code in the README doc
+8. Platt, S. (2020). Design and Evaluation of a Binaural Chorus Effect. Audio Engineering Society Convention 149. http://www.aes.org/e-lib/browse.cfm?elib=20869
